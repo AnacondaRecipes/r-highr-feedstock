@@ -10,8 +10,8 @@ package:
 source:
   fn: highr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/highr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/highr/highr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/highr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/highr/highr_{{ version }}.tar.gz
   sha256: 43e152b2dea596df6e14c44398c74fcd438ece15eaae5bdb84aef8d61b213b59
 
 
